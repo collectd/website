@@ -35,6 +35,10 @@
 		  versions will not get updates. </div>
 
                   <ul class="download">
+                    <li>Version 5.12</li>
+                    <ul>
+                        <li class="tar bz2"><a href="https://storage.googleapis.com/collectd-tarballs/collectd-5.12.0.tar.bz2">collectd-5.12.0.tar.bz2</a>
+                        <div class="checksum">SHA-256: </div></li>
                     <li>Version 5.11
                     <ul>
                       <li class="tar bz2"><a href="https://storage.googleapis.com/collectd-tarballs/collectd-5.11.0.tar.bz2">collectd-5.11.0.tar.bz2</a>
@@ -129,19 +133,22 @@
 
 	      <h2 id="fedora">Fedora</h2>
 
-	      <p>Information about the <em>collectd</em> Fedora package is available at
-	      <a href="https://apps.fedoraproject.org/packages/collectd/overview/">https://apps.fedoraproject.org/packages/collectd/overview/</a>.
-
-              <h2 id="rpm">RPM packages</h2>
+  	      <p>
+              <h3 id="rpm">RPM packages</h3>
 
               <p>Packages for <em>openSUSE</em> and <em>SUSE Linux Enterprise Server</em> (SLES) are contained in the
               <a href="http://download.opensuse.org/repositories/server:/monitoring/">server:monitoring project</a>.
               You can <a href="http://software.opensuse.org/search?baseproject=ALL&p=1&q=collectd">search the openSUSE
                 package repositories</a> for suitable RPM packages.</p>
 
-              <p>For <em>Red&nbsp;Hat</em>, <em>CentOS</em> and <em>fedora</em>, there are
-              <span class="collectd">collectd</span> RPM packages
-              <a href="http://dag.wieers.com/rpm/packages/collectd/">in Dag Wieers' repository</a>.</p>
+              <p>For <em>Red&nbsp;Hat</em>, <em>CentOS</em> and <em>Fedora</em>, there are
+              <span class="collectd">collectd</span> RPM packages in
+              <ul>
+                  <li><a href="https://docs.fedoraproject.org/en-US/epel/">EPEL</a></li>
+                  <li><a href="https://wiki.centos.org/SpecialInterestGroup/OpsTools">CentOS Opstools SIG</a></li>
+                  <li><a href="https://src.fedoraproject.org/rpms/collectd">and built directly for Fedora inside the distributioni</a></li>
+              </ul>
+              </p>
 
               <h3>Building an source-RPM package</h3>
               <p><span class="collectd">collectd</span> includes sample <code>.spec</code>&nbsp;files in the
