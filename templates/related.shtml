@@ -110,8 +110,8 @@
                 
                  <li><a href="https://newrelic.com/">New Relic</a><br />
                 New Relic is a Software as a Service offering that focuses on performance and availability monitoring.
-                New Relic’s CollectD integration lets users easily get CollectD-format data into New Relic. Check out the
-                <a href="https://newrelic.com/instant-observability/collectd/b0ba29c2-be55-4da2-bf24-f8cc3c27715c">Collectd docs</a> on New Relic.
+                New Relic’s collectd integration lets users easily get collectd-format data into New Relic. Check out the
+                <a href="https://newrelic.com/instant-observability/collectd">collectd docs</a> on New Relic.
                 </li>
               </ul>
 
