@@ -107,6 +107,12 @@
                 <em>collectd app</em> by Nexinto adds a dashboard for system metrics (CPU, memory, disk, …). Licensed
                 under the Apache License 2.0.
                 </li>
+                
+                 <li><a href="https://newrelic.com/">New Relic</a><br />
+                New Relic is a Software as a Service offering that focuses on performance and availability monitoring.
+                New Relic’s collectd integration lets users easily get collectd-format data into New Relic. Check out the
+                <a href="https://newrelic.com/instant-observability/collectd">collectd docs</a> on New Relic.
+                </li>
               </ul>
 
               <h3>Articles / Blog entries</h3>
